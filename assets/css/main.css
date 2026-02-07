@@ -7749,11 +7749,11 @@ r {
 }
 .footer__widget .social_media a {
   color: white;
-  background: linear-gradient(180deg, rgba(232, 17, 43, 0.3) 0%, rgba(125, 225, 205, 0.1); 100%);
-  background: -webkit-linear-gradient(180deg, rgba(232, 17, 43, 0.3) 0%, rgba(125, 225, 205, 0.1); 100%);
-  background: -moz-linear-gradient(180deg, rgba(232, 17, 43, 0.3) 0%, rgba(125, 225, 205, 0.1); 100%);
-  background: -ms-linear-gradient(180deg, rgba(232, 17, 43, 0.3) 0%, rgba(125, 225, 205, 0.1); 100%);
-  background: -o-linear-gradient(180deg, rgba(232, 17, 43, 0.3) 0%, rgba(125, 225, 205, 0.1); 100%);
+  background: linear-gradient(180deg, rgba(232, 17, 43, 0.3) 0%, rgba(125, 225, 205, 0.1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(232, 17, 43, 0.3) 0%, rgba(125, 225, 205, 0.1) 100%);
+  background: -moz-linear-gradient(180deg, rgba(232, 17, 43, 0.3) 0%, rgba(125, 225, 205, 0.1) 100%);
+  background: -ms-linear-gradient(180deg, rgba(232, 17, 43, 0.3) 0%, rgba(125, 225, 205, 0.1) 100%);
+  background: -o-linear-gradient(180deg, rgba(232, 17, 43, 0.3) 0%, rgba(125, 225, 205, 0.1) 100%);
   backdrop-filter: blur(7.5px);
 }
 .footer__widget .social_media a:hover {
