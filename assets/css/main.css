@@ -7893,6 +7893,9 @@ r {
   }
 }
 
+.copyright__text {
+  text-align: left !important;
+}
 .copyright__text p {
   font-size: 20px;
   font-weight: 500;
@@ -7901,15 +7904,21 @@ r {
   align-items: center !important;
   flex-wrap: wrap !important;
   gap: 15px !important;
+  text-align: left !important;
+  margin: 0 !important;
 }
 .copyright__text p a {
-  display: inline-block;
+  display: inline-block !important;
   white-space: nowrap;
+  flex-shrink: 0;
 }
 @media (max-width: 767px) {
   .copyright__text p {
     font-size: 18px;
     justify-content: center;
+  }
+  .copyright__text {
+    text-align: center !important;
   }
 }
 
