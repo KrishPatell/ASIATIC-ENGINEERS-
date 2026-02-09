@@ -7897,10 +7897,19 @@ r {
   font-size: 20px;
   font-weight: 500;
   color: white;
+  display: flex !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  gap: 15px !important;
+}
+.copyright__text p a {
+  display: inline-block;
+  white-space: nowrap;
 }
 @media (max-width: 767px) {
   .copyright__text p {
     font-size: 18px;
+    justify-content: center;
   }
 }
 
