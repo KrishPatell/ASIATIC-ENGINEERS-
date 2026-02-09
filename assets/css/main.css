@@ -378,9 +378,14 @@ label {
   border-radius: 50%;
   line-height: 40px;
   text-align: center;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 #scrollUp i {
   color: white;
+  font-size: 18px;
 }
 
 /*--
@@ -516,6 +521,8 @@ label {
 }
 .round-menu i {
   color: black;
+  font-size: 18px;
+  line-height: 46px;
 }
 
 .offset-sidebar {
@@ -854,9 +861,18 @@ label {
 .social_media a i {
   font-size: 18px;
 }
+.social_media a img {
+  width: 20px;
+  height: 20px;
+  display: block;
+  object-fit: contain;
+}
 .social_media a:hover {
   color: white;
   background: #22AA86;
+}
+.social_media a:hover img {
+  filter: brightness(0) invert(1);
 }
 
 .theme-menu-two .header-info {
