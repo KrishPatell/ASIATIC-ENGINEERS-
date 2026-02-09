@@ -2819,7 +2819,7 @@ a.meanmenu-reveal {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
+  border-radius: 8px;
   width: 60px;
   height: 60px;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 100%);
@@ -6693,7 +6693,11 @@ r {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
+  border-radius: 8px;
+  width: 60px;
+  height: 60px;
+  color: white;
+  background: #22AA86;
 }
 .teams__slider__one .swiper-button-prev {
   left: 46%;
@@ -6703,15 +6707,10 @@ r {
   right: 42%;
   transform: translateX(-46%);
 }
-.teams__slider__one .swiper-button-prev,
-.teams__slider__one .swiper-button-next {
-  color: white;
-  background: #22AA86;
-}
 .teams__slider__one .swiper-button-prev:hover,
 .teams__slider__one .swiper-button-next:hover {
   color: white;
-  background: #22AA86;
+  background: #1a8a6f;
 }
 .teams__slider__one .swiper-button-prev i,
 .teams__slider__one .swiper-button-next i {
@@ -6719,6 +6718,7 @@ r {
   line-height: 1;
   display: inline-block;
   vertical-align: middle;
+  color: white;
 }
 @media only screen and (max-width: 1200px) {
   .teams__slider__one .swiper-button-prev {
