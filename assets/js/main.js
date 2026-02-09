@@ -771,9 +771,17 @@
 		animation: 'fade', // Fade, slide, none
 		animationInSpeed: 300, // Animation in speed (ms)
 		animationOutSpeed: 300, // Animation out speed (ms)
-		scrollText: '<i class="fas fa-arrow-up"></i>', // Text for element
+		scrollText: '<i class="fas fa-chevron-double-up"></i>', // Text for element
 		activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
 	});
+	
+	// Ensure icon is always present (fallback fix)
+	setTimeout(function() {
+		var $scrollUp = $('#scrollUp');
+		if ($scrollUp.length && !$scrollUp.find('i').length) {
+			$scrollUp.html('<i class="fas fa-chevron-double-up"></i>');
+		}
+	}, 500);
 
 
 

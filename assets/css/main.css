@@ -384,9 +384,29 @@ label {
   text-decoration: none !important;
   z-index: 9999 !important;
 }
+#scrollUp {
+  background: #22AA86 !important;
+  width: 40px !important;
+  height: 40px !important;
+  position: fixed !important;
+  right: 20px !important;
+  bottom: 40px !important;
+  border-radius: 50% !important;
+  line-height: 40px;
+  text-align: center;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-decoration: none !important;
+  z-index: 9999 !important;
+  background-image: none !important;
+}
+#scrollUp img {
+  display: none !important;
+}
 #scrollUp i {
   color: white !important;
-  font-size: 20px !important;
+  font-size: 18px !important;
   display: inline-block !important;
   line-height: 1 !important;
   opacity: 1 !important;
@@ -394,22 +414,11 @@ label {
   position: relative !important;
   margin: 0 !important;
   padding: 0 !important;
-  width: auto !important;
-  height: auto !important;
 }
-#scrollUp i.fa-arrow-up,
 #scrollUp i.fa-chevron-double-up,
 #scrollUp i.fas {
   font-family: "Font Awesome 5 Free" !important;
   font-weight: 900 !important;
-  -webkit-font-smoothing: antialiased !important;
-  -moz-osx-font-smoothing: grayscale !important;
-}
-#scrollUp i::before {
-  display: inline-block !important;
-  font-style: normal !important;
-  font-variant: normal !important;
-  text-rendering: auto !important;
 }
 
 /*--
