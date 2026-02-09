@@ -389,6 +389,16 @@ label {
   font-size: 18px !important;
   display: inline-block !important;
   line-height: 1 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  position: relative !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#scrollUp i.fa-chevron-double-up,
+#scrollUp i.fas {
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900 !important;
 }
 
 /*--
