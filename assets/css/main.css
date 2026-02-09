@@ -6854,14 +6854,6 @@ r {
   line-height: 1;
   display: inline-block;
   vertical-align: middle;
-  text-align: center;
-  line-height: 84px;
-  margin-bottom: 20px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -ms-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
 }
 .single__info__box span {
   color: #181818;
