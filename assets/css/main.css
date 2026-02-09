@@ -385,8 +385,10 @@ label {
   z-index: 9999 !important;
 }
 #scrollUp i {
-  color: white;
-  font-size: 18px;
+  color: white !important;
+  font-size: 18px !important;
+  display: inline-block !important;
+  line-height: 1 !important;
 }
 
 /*--
