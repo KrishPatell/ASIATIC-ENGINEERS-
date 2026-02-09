@@ -369,19 +369,20 @@ label {
   }
 }
 #scrollUp {
-  background: #22AA86;
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  right: 20px;
-  bottom: 40px;
-  border-radius: 50%;
+  background: #22AA86 !important;
+  width: 40px !important;
+  height: 40px !important;
+  position: fixed !important;
+  right: 20px !important;
+  bottom: 40px !important;
+  border-radius: 50% !important;
   line-height: 40px;
   text-align: center;
   display: flex !important;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
+  align-items: center !important;
+  justify-content: center !important;
+  text-decoration: none !important;
+  z-index: 9999 !important;
 }
 #scrollUp i {
   color: white;
