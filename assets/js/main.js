@@ -271,8 +271,8 @@
 		},
 		// Navigation arrows
 		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
+			nextEl: '.hero__slider__two .swiper-button-next',
+			prevEl: '.hero__slider__two .swiper-button-prev',
 		},
 	});
 
