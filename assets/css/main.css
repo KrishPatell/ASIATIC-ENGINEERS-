@@ -7903,14 +7903,24 @@ r {
   display: flex !important;
   align-items: center !important;
   flex-wrap: wrap !important;
+  flex-direction: row !important;
   gap: 15px !important;
   text-align: left !important;
   margin: 0 !important;
+  line-height: 1 !important;
 }
 .copyright__text p a {
   display: inline-block !important;
-  white-space: nowrap;
-  flex-shrink: 0;
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+  vertical-align: middle !important;
+  line-height: 1 !important;
+}
+.col-lg-5.text-center.text-lg-start .copyright__text p {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
 }
 @media (max-width: 767px) {
   .copyright__text p {
