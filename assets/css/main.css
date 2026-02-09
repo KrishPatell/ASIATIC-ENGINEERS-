@@ -7923,11 +7923,21 @@ r {
   vertical-align: middle !important;
   line-height: 1 !important;
 }
-.col-lg-5.text-center.text-lg-start .copyright__text p {
-  display: flex !important;
-  flex-direction: row !important;
-  align-items: center !important;
-  justify-content: flex-start !important;
+.copyright__text p a.ht_btn {
+  padding: 12px 20px !important;
+  font-size: 14px !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+  word-wrap: break-word !important;
+  white-space: normal !important;
+}
+.col-lg-4.text-center.text-lg-start .copyright__text,
+.col-lg-5.text-center.text-lg-start .copyright__text {
+  overflow: hidden !important;
+  padding-right: 15px !important;
+}
+.col-lg-4.text-center.text-lg-end .footer__menu {
+  padding-left: 15px !important;
 }
 @media (max-width: 767px) {
   .copyright__text p {
