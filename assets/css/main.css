@@ -928,11 +928,22 @@ label {
   min-width: fit-content !important;
   flex-shrink: 0 !important;
   overflow: visible !important;
+  margin-left: auto !important;
+  justify-content: flex-end !important;
 }
 /* Fallback for browsers that don't support :has() */
 .col-xl-3 .social_media,
 .d-flex .social_media {
   flex-shrink: 0 !important;
+}
+/* Ensure social media icons are positioned on the right */
+.top__header__info .col-xl-3 {
+  margin-left: auto !important;
+  text-align: right !important;
+}
+.top__header__info .col-xl-3 .social_media {
+  margin-left: auto !important;
+  justify-content: flex-end !important;
 }
 .social_media a:hover {
   color: white;
