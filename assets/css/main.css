@@ -652,22 +652,25 @@ label {
   color: #22AA86;
 }
 
+.main-menu ul li {
+  position: relative !important;
+}
 .main-menu ul li ul.sub-menu {
   border: 0;
-  position: absolute;
+  position: absolute !important;
   z-index: 9999 !important;
-  background-color: #fff;
+  background-color: #fff !important;
   border-radius: 0;
   display: block !important;
   right: 0;
   left: 0;
   padding: 0;
-  top: 100%;
+  top: 100% !important;
   visibility: hidden;
   transform: scaleY(0);
   opacity: 0;
   min-width: 220px;
-  box-shadow: 0px 30px 70px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 30px 70px 0px rgba(0, 0, 0, 0.05) !important;
   margin: 0;
   transform-origin: 0 0;
   -webkit-transition: all 0.3s ease-in-out;
@@ -681,10 +684,11 @@ label {
   position: relative;
 }
 .main-menu ul li ul.sub-menu li ul.sub-menu {
-  position: absolute;
+  position: absolute !important;
   right: 0;
   left: 100%;
   top: 0;
+  z-index: 10000 !important;
 }
 .main-menu ul li ul.sub-menu li a {
   color: #181818;
