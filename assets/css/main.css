@@ -917,18 +917,6 @@ label {
   flex-shrink: 0 !important;
   overflow: visible !important;
 }
-.social_media {
-  display: flex !important;
-  align-items: center !important;
-  flex-wrap: nowrap !important;
-  gap: 6px !important;
-  white-space: nowrap !important;
-  min-width: fit-content !important;
-  flex-shrink: 0 !important;
-  width: auto !important;
-  max-width: none !important;
-  overflow: visible !important;
-}
 .social_media a:hover {
   color: white;
   background: #22AA86;
