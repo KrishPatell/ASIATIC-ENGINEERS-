@@ -912,10 +912,16 @@ label {
 }
 /* Ensure parent container doesn't constrain social media icons */
 .col-xl-3:has(.social_media),
-.d-flex:has(.social_media) {
+.d-flex:has(.social_media),
+.text-lg-end:has(.social_media) {
   min-width: fit-content !important;
   flex-shrink: 0 !important;
   overflow: visible !important;
+}
+/* Fallback for browsers that don't support :has() */
+.col-xl-3 .social_media,
+.d-flex .social_media {
+  flex-shrink: 0 !important;
 }
 .social_media a:hover {
   color: white;
