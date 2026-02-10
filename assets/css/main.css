@@ -655,10 +655,10 @@ label {
 .main-menu ul li ul.sub-menu {
   border: 0;
   position: absolute;
-  z-index: 5;
+  z-index: 9999 !important;
   background-color: #fff;
   border-radius: 0;
-  display: block;
+  display: block !important;
   right: 0;
   left: 0;
   padding: 0;
@@ -708,13 +708,24 @@ label {
   background: #22AA86;
 }
 .main-menu ul li:hover > .sub-menu {
-  opacity: 1;
-  visibility: visible;
-  transform: scale(1);
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: scale(1) !important;
+  -webkit-transform: scale(1) !important;
+  -moz-transform: scale(1) !important;
+  -ms-transform: scale(1) !important;
+  -o-transform: scale(1) !important;
+  display: block !important;
+}
+.main-menu ul li ul.sub-menu li:hover > .sub-menu {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: scale(1) !important;
+  -webkit-transform: scale(1) !important;
+  -moz-transform: scale(1) !important;
+  -ms-transform: scale(1) !important;
+  -o-transform: scale(1) !important;
+  display: block !important;
 }
 
 .sticky-menu {
