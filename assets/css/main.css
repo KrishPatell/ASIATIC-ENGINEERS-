@@ -661,7 +661,7 @@ label {
   z-index: 9999 !important;
   background-color: #fff !important;
   border-radius: 0;
-  display: block !important;
+  display: none !important;
   right: 0;
   left: 0;
   padding: 0;
@@ -673,11 +673,15 @@ label {
   box-shadow: 0px 30px 70px 0px rgba(0, 0, 0, 0.05) !important;
   margin: 0;
   transform-origin: 0 0;
+  pointer-events: none;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+.main-menu ul li:hover > ul.sub-menu {
+  pointer-events: auto !important;
 }
 .main-menu ul li ul.sub-menu li {
   display: block;
@@ -714,22 +718,24 @@ label {
 .main-menu ul li:hover > .sub-menu {
   opacity: 1 !important;
   visibility: visible !important;
-  transform: scale(1) !important;
-  -webkit-transform: scale(1) !important;
-  -moz-transform: scale(1) !important;
-  -ms-transform: scale(1) !important;
-  -o-transform: scale(1) !important;
+  transform: scaleY(1) !important;
+  -webkit-transform: scaleY(1) !important;
+  -moz-transform: scaleY(1) !important;
+  -ms-transform: scaleY(1) !important;
+  -o-transform: scaleY(1) !important;
   display: block !important;
+  pointer-events: auto !important;
 }
 .main-menu ul li ul.sub-menu li:hover > .sub-menu {
   opacity: 1 !important;
   visibility: visible !important;
-  transform: scale(1) !important;
-  -webkit-transform: scale(1) !important;
-  -moz-transform: scale(1) !important;
-  -ms-transform: scale(1) !important;
-  -o-transform: scale(1) !important;
+  transform: scaleY(1) !important;
+  -webkit-transform: scaleY(1) !important;
+  -moz-transform: scaleY(1) !important;
+  -ms-transform: scaleY(1) !important;
+  -o-transform: scaleY(1) !important;
   display: block !important;
+  pointer-events: auto !important;
 }
 
 .sticky-menu {
